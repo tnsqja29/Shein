@@ -1,0 +1,13 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="24" transform="rotate(-180 25 25)" fill="#FF4E88" stroke="#FF4E88" stroke-width="2"/>
+<path d="M13.3003 32V21.5C13.3003 19.0147 15.315 17 17.8003 17H32.2003C34.6856 17 36.7003 19.0147 36.7003 21.5V32C36.7003 34.4853 34.6856 36.5 32.2003 36.5H17.8003C15.315 36.5 13.3003 34.4853 13.3003 32Z" stroke="black" stroke-width="2"/>
+<path d="M25 12.5L25 17" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M37 23H38.5C40.1569 23 41.5 24.3431 41.5 26V28.1689C41.5 29.3956 40.7531 30.4987 39.6142 30.9543L37 32" stroke="black" stroke-width="2"/>
+<path d="M13 23H11.5C9.84315 23 8.5 24.3431 8.5 26V28.1689C8.5 29.3956 9.24685 30.4987 10.3858 30.9543L13 32" stroke="black" stroke-width="2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M31 21.875C31.6213 21.875 32.125 22.3787 32.125 23V26C32.125 26.6213 31.6213 27.125 31 27.125C30.3787 27.125 29.875 26.6213 29.875 26V23C29.875 22.3787 30.3787 21.875 31 21.875Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19 21.875C19.6213 21.875 20.125 22.3787 20.125 23V26C20.125 26.6213 19.6213 27.125 19 27.125C18.3787 27.125 17.875 26.6213 17.875 26V23C17.875 22.3787 18.3787 21.875 19 21.875Z" fill="black"/>
+<circle cx="25" cy="9.5" r="3" fill="black"/>
+<path d="M22 30.5H28" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M40 23V20" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M10 23V20" stroke="black" stroke-width="2" stroke-linecap="round"/>
+</svg>
