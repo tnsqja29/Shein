@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/sub.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./script/sub.js"></script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="header-inner">
+                <div class="top-header">
+                    <div class="logo-box">
+                        <a href="./index.html" class="logo"></a>
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder="검색할 내용을 입력하세요." class="search-box">
+                        <div class="search-img"></div>
+                    </div>
+                    <ul class="header-utils">
+                        <li class="header-utils-list"><a href="#" class="header-utils-link"></a></li>
+                        <li class="header-utils-list"><a href="./shopping-cart.html" class="header-utils-link"></a></li>
+                        <li class="header-utils-list"><a href="#" class="header-utils-link"></a></li>
+                        <li class="header-utils-list"><a href="#" class="header-utils-link"></a></li>
+                        <li class="header-utils-list"><a href="#" class="header-utils-link"></a></li>
+                    </ul>
+                </div>
+                <div class="header-bottom">
+                    <div class="category">
+                        <div class="category-cont">
+                            <a href="#a" class="category-btn">카테고리</a>
+                            <ul class="main-category">
+                                <li class="main-category-list">
+                                    <a href="#a" class="main-category-link">여성의류</a>
+                                    <ul class="sub-category">
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                신상품
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                상의
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                아우터
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                하의
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                원피스/스커트
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                속옷/홈웨어
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                스포츠웨어
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                임부복
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                파티웨어
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="main-category-list">
+                                    <a href="#a" class="main-category-link">남성의류</a>
+                                    <ul class="sub-category">
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                신상품
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                상의
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                아우터
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                하의
+                                            </a>
+                                        </li>
+
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                속옷/홈웨어
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                스포츠웨어
+                                            </a>
+                                        </li>
+
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                파티웨어
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="main-category-list">
+                                    <a href="#a" class="main-category-link">플러스 사이즈</a>
+                                    <ul class="sub-category">
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                신상품
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                상의
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                아우터
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                하의
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                원피스/스커트
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                속옷/홈웨어
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                스포츠웨어
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                파티웨어
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="main-category-list">
+                                    <a href="#a" class="main-category-link">키즈</a>
+                                    <ul class="sub-category">
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                신상품
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                상의
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                아우터
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                하의
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                세트 의류
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                신발
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                속옷/홈웨어
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                시즌/테마
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                12개월 이하
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                가방
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                악세서리
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="main-category-list">
+                                    <a href="#a" class="main-category-link">신발</a>
+                                    <ul class="sub-category">
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                신상품
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                샌들/슬리퍼
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                스니커즈
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                구두
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                부츠
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                스포츠화
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                안전화
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="main-category-list">
+                                    <a href="#a" class="main-category-link">패션소품</a>
+                                    <ul class="sub-category">
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                신상품
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                모자
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                양말
+                                            </a>
+                                        </li>
+                                        <li class="sub-category-item">
+                                            <a href="#a" class="sub-category-link">
+                                                액세서리
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <ul class="main-list">
+                        <li class="main-item"><a href="#" class="main-link">신상품</a></li>
+                        <li class="main-item"><a href="#" class="main-link">인기상품</a></li>
+                        <li class="main-item"><a href="#" class="main-link">할인상품</a></li>
+                        <li class="main-item"><a href="#" class="main-link">이벤트</a></li>
+                    </ul>
+                    <ul class="header-category">
+                        <li class="category-circle fashion"></li>
+                        <li class="header-list first">
+                            <a href="#" class="header-link is-active">FASHION</a>
+                        </li>
+                        <li class="header-list second">
+                            <a href="#" class="header-link">LIFE</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </header>
+        <main>
+            <section class="item-info">
+                <div class="item-info-inner">
+                    <div class="item-image">
+                        <a href="#a" class="slide-btn left">
+                            <img src="./images/sub/slide-btn-left.svg" alt="슬라이드버튼">
+                        </a>
+                        <a href="#a" class="slide-btn right">
+                            <img src="./images/sub/slide-btn-right.svg" alt="슬라이드버튼">
+                        </a>
+                        <div class="slide-list first is-active">
+                            <div class="slide-menu">
+                                <img src="./images/sub/DAZY-여성용-단색-오프숄더-사이드-타이-티셔츠2.png" alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/DAZY-여성용-단색-오프숄더-사이드-타이-티셔츠4.png" alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/DAZY-여성용-단색-오프숄더-사이드-타이-티셔츠6.png" alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/DAZY-여성용-단색-오프숄더-사이드-타이-티셔츠5.png" alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/DAZY-여성용-단색-오프숄더-사이드-타이-티셔츠3.png" alt="슬라이드" class="slide-item">
+                            </div>
+                        </div>
+                        <div class="slide-list second">
+                            <div class="slide-menu">
+                                <img src="./images/sub/slide/2/1.png"
+                                    alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/2/2.png"
+                                    alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/2/3.png"
+                                    alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/2/4.png"
+                                    alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/2/5.png"
+                                    alt="슬라이드" class="slide-item">
+                            </div>
+                        </div>
+                        <div class="slide-list third">
+                            <div class="slide-menu">
+                                <img src="./images/sub/slide/3/1.png"
+                                    alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/3/2.png"
+                                    alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/3/3.png"
+                                    alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/3/4.png"
+                                    alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/3/5.png"
+                                    alt="슬라이드" class="slide-item">
+                            </div>
+                        </div>
+                        <div class="slide-list fourth">
+                            <div class="slide-menu">
+                                <img src="./images/sub/slide/4/1.png" alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/4/2.png" alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/4/3.png" alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/4/4.png" alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/4/5.png" alt="슬라이드" class="slide-item">
+                            </div>
+                        </div>
+                        <div class="slide-list fifth">
+                            <div class="slide-menu">
+                                <img src="./images/sub/slide/5/1.png"
+                                    alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/5/2.png"
+                                    alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/5/3.png"
+                                    alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/5/4.png"
+                                    alt="슬라이드" class="slide-item">
+                                <img src="./images/sub/slide/5/5.png"
+                                    alt="슬라이드" class="slide-item">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-detail">
+                        <div class="brand">
+                            <a href="#a" class="brand-title">
+                                DAZY
+                                <span class="brand-arrow"></span>
+                            </a>
+                        </div>
+                        <div class="item-title-box">
+                            <span class="delivery">[당일출고][무료배송]</span>
+                            <span class="item-title">DAZY 여성용 단색 오프숄더 사이드 노트 티셔츠</span>
+                        </div>
+                        <div class="price">
+                            <span class="item-price">180,000</span>
+                            <div class="sale-box">
+                                <span class="sale-rate">40%</span>
+                                <span class="sale-price">108,500</span>
+                                <span class="won">원</span>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <div class="star"></div>
+                            <div class="review-count">21개 리뷰</div>
+                        </div>
+                        <ul class="item-colors">
+                            <li class="color-item">
+                                <a href="#a" class="color-link first">
+                                    <img class="is-active" src="./images/sub/Ellipse-134.svg" alt="컬러">
+                                </a>
+                            </li>
+                            <li class="color-item">
+                                <a href="#a" class="color-link second">
+                                    <img class="" src="./images/sub/Ellipse-132.svg" alt="컬러">
+                                </a>
+                            </li>
+                            <li class="color-item">
+                                <a href="#a" class="color-link third">
+                                    <img src="./images/sub/Ellipse-133.svg" alt="컬러">
+                                </a>
+                            </li>
+                            <li class="color-item">
+                                <a href="#a" class="color-link fourth">
+                                    <img src="./images/sub/Ellipse-138.svg" alt="컬러">
+                                </a>
+                            </li>
+                            <li class="color-item">
+                                <a href="#a" class="color-link fifth">
+                                    <img src="./images/sub/Ellipse-136.svg" alt="컬러">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="size">
+                            <select class="country">
+                                <option value="#">KR 사이즈</option>
+                            </select>
+                            <ul class="size-num">
+                                <li class="size-item is-active">
+                                    <a href="#a" class="size-link">44</a>
+                                </li>
+                                <li class="size-item">
+                                    <a href="#a" class="size-link">55</a>
+                                </li>
+                                <li class="size-item">
+                                    <a href="#a" class="size-link">66</a>
+                                </li>
+                                <li class="size-item">
+                                    <a href="#a" class="size-link">77</a>
+                                </li>
+                                <li class="size-item">
+                                    <a href="#a" class="size-link">88</a>
+                                </li>
+                                <li class="size-item">
+                                    <a href="#a" class="size-link">99</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="shop-btn">
+                            <a href="#a" class="btn cart">장바구니 담기</a>
+                            <a href="#a" class="btn gift">선물하기</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="detail-cont">
+                <div class="detail-cont-inner">
+                    <ul class="detail-menu">
+                        <li class="detail-item size">
+                            <a href="#a" class="detail-link is-active">사이즈</a>
+                        </li>
+                        <li class="detail-item review">
+                            <a href="#a" class="detail-link">리뷰</a>
+                        </li>
+                        <li class="detail-item recommend">
+                            <a href="#a" class="detail-link">추천</a>
+                        </li>
+                    </ul>
+                    <div class="size-inner is-active">
+                        <p class="detail-title">
+                            상품측정
+                        </p>
+                        <table class="detail-size">
+                            <tr>
+                                <td>사이즈</td>
+                                <td>길이</td>
+                                <td>가슴</td>
+                            </tr>
+                            <tr>
+                                <td>XS</td>
+                                <td>43</td>
+                                <td>78</td>
+                            </tr>
+                            <tr>
+                                <td>S</td>
+                                <td>44.5</td>
+                                <td>82</td>
+                            </tr>
+                            <tr>
+                                <td>M</td>
+                                <td>46</td>
+                                <td>86</td>
+                            </tr>
+                            <tr>
+                                <td>L</td>
+                                <td>47.5</td>
+                                <td>90</td>
+                            </tr>
+                            <tr>
+                                <td>XL</td>
+                                <td>49</td>
+                                <td>94</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="review-inner">
+                        <p class="detail-title">고객 리뷰</p>
+                        <div class="review-cont">
+                            <div class="satisfaction">
+                                <p class="satis-title">상품 만족도</p>
+                                <div class="rating">
+                                    <p class="rating-num">4.9 / 5</p>
+                                    <div class="rating-star"></div>
+                                </div>
+                            </div>
+                            <div class="review-detail-cont">
+                                <div class="cont">
+                                    <p class="cont-item">사이즈</p>
+                                    <div class="eva">
+                                        <span>잘 맞아요</span>
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                                <div class="cont">
+                                    <p class="cont-item">핏</p>
+                                    <div class="eva">
+                                        <span>슬림핏</span>
+                                        <span>70%</span>
+                                    </div>
+                                </div>
+                                <div class="cont">
+                                    <p class="cont-item">컬러</p>
+                                    <div class="eva">
+                                        <span>화면과 같아요</span>
+                                        <span>100%</span>
+                                    </div>
+                                </div>
+                                <div class="cont">
+                                    <p class="cont-item">길이</p>
+                                    <div class="eva">
+                                        <span>적당함</span>
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="all-review">
+                            <div class="all-review-title">
+                                <p class="all-title">전체 리뷰(21)</p>
+                                <p class="image-title">이미지</p>
+                                <p class="recommend-text">추천순</p>
+                                <p class="new-text">최신순</p>
+                            </div>
+                            <ul class="user-review-list">
+                                <li class="user-review-item">
+                                    <a href="#a" class="user-review-link">
+                                        <div class="review-img"></div>
+                                        <div class="user-rating">
+                                            <div class="user-star-rating"></div>
+                                            <div class="user-detail-review">
+                                                <p class="user-info">전체 핏:정사이즈</p>
+                                                <p class="user-info">색:블랙</p>
+                                                <p class="user-info">사이즈:M</p>
+                                            </div>
+                                            <p class="user-text">생각보다 더 예뻐요! 최근에 쇼핑 한 것 중에 제일 만족합니당~</p>
+                                        </div>
+                                        <div class="user-recommend">
+                                            <div class="flex-recommend">
+                                                <p class="user-recommend-rate">도움이 돼요(4)</p>
+                                                <p class="user-name">m****n</p>
+                                            </div>
+                                            <p class="date">2024.08.19</p>
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li class="user-review-item">
+                                    <a href="#a" class="user-review-link">
+                                        <div class="review-img"></div>
+                                        <div class="user-rating">
+                                            <div class="user-star-rating"></div>
+                                            <div class="user-detail-review">
+                                                <p class="user-info">전체 핏:정사이즈</p>
+                                                <p class="user-info">색:베이지</p>
+                                                <p class="user-info">사이즈:M</p>
+                                            </div>
+                                            <p class="user-text">만족해요~~ 다들 구매하세요!</p>
+                                        </div>
+                                        <div class="user-recommend">
+                                            <div class="flex-recommend">
+                                                <p class="user-recommend-rate">도움이 돼요(3)</p>
+                                                <p class="user-name">s*****g</p>
+                                            </div>
+                                            <p class="date">2024.08.16</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="user-review-item">
+                                    <a href="#a" class="user-review-link">
+                                        <div class="review-img"></div>
+                                        <div class="user-rating">
+                                            <div class="user-star-rating"></div>
+                                            <div class="user-detail-review">
+                                                <p class="user-info">전체 핏:정사이즈</p>
+                                                <p class="user-info">색:베이지</p>
+                                                <p class="user-info">사이즈:S</p>
+                                            </div>
+                                            <p class="user-text">핏이 생각과는 달랐지만.. 치마에 입으니 예쁘네요</p>
+                                        </div>
+                                        <div class="user-recommend">
+                                            <div class="flex-recommend">
+                                                <p class="user-recommend-rate">도움이 돼요(1)</p>
+                                                <p class="user-name">h***n</p>
+                                            </div>
+                                            <p class="date">2024.08.15</p>
+                                        </div>
+
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="slide-btn">
+                                <img class="left-arrow" src="./images/slide-arrow1.svg" alt="슬라이드 화살표">
+                                <p class="page">1</p>
+                                <p class="last-page">4</p>
+                                <img class="right-arrow" src="./images/slide-arrow2.svg" alt="슬라이드 화살표">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="shop-inner">
+                    <ul class="shop-list">
+                        <li class="shop-item">
+                            <a href="#" class="shop-link">
+                                <div class="item-image"></div>
+                                <div class="text-box">
+                                    <p class="brand">DAZY</p>
+                                    <p class="item-name">타이 다이 셔링 스플릿 햄 탑</p>
+                                    <p class="item-price"><span class="dis-rate">5%</span> <span
+                                            class="price">42,000</span>
+                                        <span class="sale-price">39,900</span></p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="shop-item">
+                            <a href="#" class="shop-link">
+                                <div class="item-image"></div>
+                                <div class="text-box">
+                                    <p class="brand">DAZY</p>
+                                    <p class="item-name">여성용 단색 오프숄더 사이드 타이 티셔츠</p>
+                                    <p class="item-price"><span class="dis-rate">5%</span> <span
+                                            class="price">42,000</span>
+                                        <span class="sale-price">39,900</span></p>
+
+                                </div>
+                            </a>
+                        </li>
+                        <li class="shop-item">
+                            <a href="#" class="shop-link">
+                                <div class="item-image"></div>
+                                <div class="text-box">
+                                    <p class="brand">DAZY</p>
+                                    <p class="item-name">상추 트림 비대칭 밑단티</p>
+                                    <p class="item-price"><span class="dis-rate">5%</span> <span
+                                            class="price">42,000</span>
+                                        <span class="sale-price">39,900</span></p>
+
+                                </div>
+                            </a>
+                        </li>
+                        <li class="shop-item">
+                            <a href="#" class="shop-link">
+                                <div class="item-image">
+                                </div>
+                                <div class="text-box">
+                                    <p class="brand">DAZY</p>
+                                    <p class="item-name">레터 그래픽 컷 아웃 리브 니트 티셔츠</p>
+                                    <p class="item-price"><span class="dis-rate">5%</span> <span
+                                            class="price">42,000</span>
+                                        <span class="sale-price">39,900</span></p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="shop-list second">
+                        <li class="shop-item">
+                            <a href="#" class="shop-link">
+                                <div class="item-image"></div>
+                                <div class="text-box">
+                                    <p class="brand">DAZY</p>
+                                    <p class="item-name">타이 다이 셔링 스플릿 햄 탑</p>
+                                    <p class="item-price"><span class="dis-rate">5%</span> <span
+                                            class="price">42,000</span>
+                                        <span class="sale-price">39,900</span></p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="shop-item">
+                            <a href="#a" class="shop-link">
+                                <div class="item-image"></div>
+                                <div class="text-box">
+                                    <p class="brand">DAZY</p>
+                                    <p class="item-name">여성용 단색 오프숄더 사이드 타이 티셔츠</p>
+                                    <p class="item-price"><span class="dis-rate">5%</span> <span
+                                            class="price">42,000</span>
+                                        <span class="sale-price">39,900</span></p>
+
+                                </div>
+                            </a>
+                        </li>
+                        <li class="shop-item">
+                            <a href="#" class="shop-link">
+                                <div class="item-image"></div>
+                                <div class="text-box">
+                                    <p class="brand">DAZY</p>
+                                    <p class="item-name">상추 트림 비대칭 밑단티</p>
+                                    <p class="item-price"><span class="dis-rate">5%</span> <span
+                                            class="price">42,000</span>
+                                        <span class="sale-price">39,900</span></p>
+
+                                </div>
+                            </a>
+                        </li>
+                        <li class="shop-item">
+                            <a href="#" class="shop-link">
+                                <div class="item-image">
+                                </div>
+                                <div class="text-box">
+                                    <p class="brand">DAZY</p>
+                                    <p class="item-name">레터 그래픽 컷 아웃 리브 니트 티셔츠</p>
+                                    <p class="item-price"><span class="dis-rate">5%</span> <span
+                                            class="price">42,000</span>
+                                        <span class="sale-price">39,900</span></p>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-inner">
+                <div class="footer-title">
+                    <div class="blogo"></div>
+                    <div class="footer-blist">
+                        <ul class="footer-cont">
+                            <li class="list-title">회사소개</li>
+                            <li class="cont-item"><a href="#a" class="cont-link">SHEIN 소개</a></li>
+                            <li class="cont-item"><a href="#a" class="cont-link">패션 블로거 프로그램</a></li>
+                            <li class="cont-item"><a href="#a" class="cont-link">사회적 책임</a></li>
+                        </ul>
+                        <ul class="footer-cont">
+                            <li class="list-title">도움&지원</li>
+                            <li class="cont-item"><a href="#a" class="cont-link">배송안내</a></li>
+                            <li class="cont-item"><a href="#a" class="cont-link">반품 및 환불</a></li>
+                            <li class="cont-item"><a href="#a" class="cont-link">SHEIN VIP</a></li>
+                        </ul>
+                        <ul class="footer-cont">
+                            <li class="list-title">고객 관리</li>
+                            <li class="cont-item"><a href="#a" class="cont-link">상담실</a></li>
+                            <li class="cont-item"><a href="#a" class="cont-link">결제 수단</a></li>
+                            <li class="cont-item"><a href="#a" class="cont-link">포인트 프로그램</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <ul class="sns-btn">
+                        <li class="sns-item"><a href="#a" class="sns-link"></a></li>
+                        <li class="sns-item"><a href="#a" class="sns-link"></a></li>
+                        <li class="sns-item"><a href="#a" class="sns-link"></a></li>
+                        <li class="sns-item"><a href="#a" class="sns-link"></a></li>
+                        <li class="sns-item"><a href="#a" class="sns-link"></a></li>
+                        <li class="sns-item"><a href="#a" class="sns-link"></a></li>
+                        <li class="sns-item"><a href="#a" class="sns-link"></a></li>
+                        <li class="sns-item"><a href="#a" class="sns-link"></a></li>
+                    </ul>
+                    <p>SHEIN STYLE NEW 구독하기</p>
+                    <div class="e-mail">
+                        <input type="text" placeholder="이메일 입력" class="e-mail-box">
+                        <div class="e-mail-btn"><a href="#a" class="sub-btn">구독</a></div>
+                    </div>
+                    <p class="check-btn">
+                        <img src="./images/Group-1797.svg" alt="체크박스">
+                        <u>이용약관</u>과&nbsp;<u>개인정보정책</u>에 동의합니다.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-inner bottom">
+                <div class="copy">
+                    <p class="copy-text">&copy;2009-2024 SHEIN 모든 권한 보유</p>
+                </div>
+                <ul class="bmenu">
+                    <li class="bmenu-item">
+                        <a href="#a" class="bmenu-link">개인정보 처리방침</a>
+                    </li>
+                    <li class="bmenu-item">
+                        <a href="#a" class="bmenu-link">쿠키 정책</a>
+                    </li>
+                    <li class="bmenu-item">
+                        <a href="#a" class="bmenu-link">이용약관</a>
+                    </li>
+                    <li class="bmenu-item">
+                        <a href="#a" class="bmenu-link">마켓 플레이스 IP 규칙</a>
+                    </li>
+                    <li class="bmenu-item">
+                        <a href="#a" class="bmenu-link">지적재산권 고지</a>
+                    </li>
+                    <li class="bmenu-item">
+                        <a href="#a" class="bmenu-link">광고선택</a>
+                    </li>
+                    <li class="bmenu-item">
+                        <a href="#a" class="bmenu-link locate">South Korea</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
